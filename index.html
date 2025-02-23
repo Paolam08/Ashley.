@@ -7,13 +7,24 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 20px;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
         }
         h1, h2 {
             color: #333;
         }
         .section {
             margin-bottom: 20px;
+            border: 1px solid #ddd;
+            padding: 10px;
+        }
+        .section h2 {
+            background-color: #f0f0f0;
+            padding: 5px;
         }
         .contact-info {
             list-style: none;
@@ -22,80 +33,83 @@
         .contact-info li {
             margin-bottom: 5px;
         }
+        .photo {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+        .menu {
+            background-color: #f0f0f0;
+            padding: 10px;
+        }
+        .menu a {
+            margin-right: 10px;
+            text-decoration: none;
+        }
     </style>
 </head>
 <body>
+    <div class="container">
+        <div class="menu">
+            <a href="#datos-personales">Datos Personales</a>
+            <a href="#estudios">Datos de Estudios</a>
+            <a href="#laborales">Datos Laborales</a>
+            <a href="#otros">Otros</a>
+            <a href="#referencias">Referencias Personales</a>
+        </div>
 
-    <section class="section">
-        <h1>Emily Joanna Cordón Cruz</h1>
-        <img src="URL_DE_TU_FOTO" alt="Foto de Emily Joanna Cordón Cruz" width="150"> 
-        <ul class="contact-info">
-            <li><strong>Teléfono:</strong> 5247-6019</li>
-            <li><strong>Correo Electrónico:</strong> emilyCordon7@gmail.com</li>
-        </ul>
-    </section>
+        <section id="datos-personales" class="section">
+            <h2>Datos Personales</h2>
+            <img src="URL_DE_TU_FOTO" alt="Foto de Emily Joanna Cordón Cruz" class="photo">
+            <ul class="contact-info">
+                <li><strong>Nombre:</strong> Emily Joanna Cordón Cruz</li>
+                <li><strong>Diversificado:</strong> Bachiller en ciencias y letras con orientación en computación</li>
+                <li><strong>Teléfono:</strong> 5247-6019</li>
+                <li><strong>Correo electrónico:</strong> emilyCordon7@gmail.com</li>
+            </ul>
+        </section>
 
-    <section class="section">
-        <h2>Formación Académica</h2>
-        <ul>
-            <li><strong>Diversificado:</strong> Bachiller en Ciencias y Letras con Orientación en Computación, Instituto Profesional de Computación</li>
-            <li><strong>Educación Básica:</strong> Instituto Profesional de Computación (Primero, Segundo y Tercero Básico)</li>
-            <li><strong>Educación Primaria:</strong> Instituto Profesional de Computación (Tercero, Cuarto, Quinto y Sexto Primaria)</li>
-            <li><strong>Educación Preescolar:</strong> Colegio La Verdad es Jesús (Prekinder, Kinder, Prepa, Primero y Segundo Primaria)</li>
-        </ul>
-    </section>
+        <section id="estudios" class="section">
+            <h2>Estudios</h2>
+            <p><strong>Formación académica</strong></p>
+            <ul>
+                <li>Liceo Juan Jose Gerardi: PreKinder, Kinder, Prepa, Primero, Segundo</li>
+                <li>Colegio La Verdad es Jesús: Tercero, Cuarto, Quinto, Sexto Primaria</li>
+                <li>Instituto Profesional de Computación: Primero, Segundo y Tercero Básico</li>
+                <li>Instituto Profesional de Computación: Diversificado en ciencias y letras con orientación en computación</li>
+            </ul>
+            <a href="#menu">Regreso al menu</a>
+        </section>
 
-    <section class="section">
-        <h2>Experiencia Laboral</h2>
-        <p><strong>Manías El Chipi:</strong> (Indicar el puesto desempeñado y las fechas de empleo, si es posible)</p>
-        <p><strong>Número de teléfono:</strong> 3498-1590</p>
-    </section>
+        <section id="laborales" class="section">
+            <h2>Laborales</h2>
+            <p><strong>Manías el chipi:</strong></p>
+            <p><strong>Número de teléfono:</strong> 3498-1590</p>
+            <a href="#menu">Regreso al menu</a>
+        </section>
 
-    <section class="section">
-        <h2>Habilidades y Competencias</h2>
-        <p>Aquí puedes agregar habilidades específicas relacionadas con tu orientación en computación, como manejo de software, lenguajes de programación, etc.</p>
-    </section>
+        <section id="otros" class="section">
+            <h2>Otros</h2>
+            <p><strong>Hobbies</strong></p>
+            <p>Mis pasatiempos favoritos son:</p>
+            <ul>
+                <li>Leer</li>
+                <li>Cocinar</li>
+                <li>Ver K-dramas</li>
+                <li>Estar sola en mi habitación mientras escucho música</li>
+            </ul>
+            <a href="#menu">Regreso al menu</a>
+        </section>
 
-    <section class="section">
-        <h2>Otros Datos de Interés</h2>
-        <h3>Hobbies:</h3>
-        <ul>
-            <li>Leer</li>
-            <li>Cocinar</li>
-            <li>Ver K-dramas</li>
-            <li>Escuchar música</li>
-        </ul>
-    </section>
-
-    <section class="section">
-        <h2>Referencias Personales</h2>
-        <ul>
-            <li><strong>Ashley Paola Martínez</strong>
-                <ul>
-                    <li><strong>Correo electrónico:</strong> ashleymartinezosoy08@gmail.com</li>
-                    <li><strong>Número de teléfono:</strong> 3886-7276</li>
-                </ul>
-            </li>
-            <li><strong>Dilan Anibal Herrera García</strong>
-                <ul>
-                    <li><strong>Correo electrónico:</strong> dilan.garcia01011@gmail.com</li>
-                    <li><strong>Número de teléfono:</strong> 4298-4494</li>
-                </ul>
-            </li>
-            <li><strong>Mariana Angélica Mendoza Martínez</strong>
-                <ul>
-                    <li><strong>Correo electrónico:</strong> erick4ljeje@gmail.com</li>
-                    <li><strong>Número de teléfono:</strong> 3205-8298</li>
-                </ul>
-            </li>
-            <li><strong>Rosa Estefana Macajola Saqui</strong>
-                <ul>
-                    <li><strong>Correo electrónico:</strong> macajolasaquirosaestefana@gmail.com</li>
-                    <li><strong>Número de teléfono:</strong> 5610-9810</li>
-                </ul>
-            </li>
-        </ul>
-    </section>
-
+        <section id="referencias" class="section">
+            <h2>Referencias</h2>
+            <p><strong>Nombre:</strong> Ashley Paola Martínez</p>
+            <p><strong>Correo electrónico:</strong> ashleymartinezosoy08@gmail.com</p>
+            <p><strong>Número de teléfono:</strong> 3886 7276</p>
+            <a href="#menu">Regreso al menu</a>
+        </section>
+    </div>
 </body>
 </html>
